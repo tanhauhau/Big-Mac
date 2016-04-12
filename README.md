@@ -2,12 +2,12 @@
 
 Restore
 
-```sh
+```bash
 (curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/main.sh) | sh
 ```
 
 Backup
 
-```sh
+```bash
 sh backup.sh
 ```
