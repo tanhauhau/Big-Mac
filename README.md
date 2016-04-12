@@ -1,2 +1,13 @@
-# bash_profile-utility
-List of aliases and bash functions for my macbook
+# Restore my Mac - Have a Big-Mac and enjoy.
+
+Restore
+
+```sh
+(curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/main.sh) | sh
+```
+
+Backup
+
+```sh
+sh backup.sh
+```
