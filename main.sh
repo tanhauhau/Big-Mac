@@ -38,3 +38,8 @@ echo "Install git..."
 curl -L https://sourceforge.net/projects/git-osx-installer/files/git-2.7.1-intel-universal-mavericks.dmg > ~/Download/git.dmg
 echo "Open git.dmg"
 open ~/Download/git.dmg
+echo "Install git standup"
+curl -L https://raw.githubusercontent.com/kamranahmedse/git-standup/master/installer.sh | sudo sh
+echo "Install git praise"
+sudo curl -o /usr/local/bin/git-praise -L https://raw.githubusercontent.com/ansman/git-praise/master/git-praise
+sudo chmod +x /usr/local/bin/git-praise
