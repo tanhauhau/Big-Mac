@@ -1,12 +1,4 @@
 #!/bin/bash
-echo "Initializing"
-# don't have a git command yet, so download each file using curl. lol
-mkdir backup
-curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/backup/bash > backup/bash
-curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/backup/brew > backup/brew
-curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/backup/npm > backup/npm
-curl https://raw.githubusercontent.com/tanhauhau/Big-Mac/master/backup/pip > backup/pip
-
 echo "Get bash profile"
 cat ~/.bash_profile > backup/bash
 
